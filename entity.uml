@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.proxym.gestionfbce.entity</OriginalElement>
+  <nodes>
+    <node x="815.88700312845" y="1648.0">com.proxym.gestionfbce.entity.Order</node>
+    <node x="1863.2922248803834" y="1459.0">com.proxym.gestionfbce.entity.CustomerParty</node>
+    <node x="2453.646874190624" y="0.0">com.proxym.gestionfbce.entity.CodeType</node>
+    <node x="1150.88700312845" y="663.0">com.proxym.gestionfbce.entity.FinancialInstitution</node>
+    <node x="1580.4083333333333" y="173.0">com.proxym.gestionfbce.entity.IdentifierType</node>
+    <node x="872.38700312845" y="1483.0">com.proxym.gestionfbce.entity.SupplierParty</node>
+    <node x="10.5" y="1471.0">com.proxym.gestionfbce.entity.Period</node>
+    <node x="750.9286697951167" y="384.0">com.proxym.gestionfbce.entity.Contact</node>
+    <node x="995.9286697951167" y="336.0">com.proxym.gestionfbce.entity.Address</node>
+    <node x="1649.2172248803834" y="1005.0">com.proxym.gestionfbce.entity.FinancialAccount</node>
+    <node x="894.38700312845" y="2023.0">com.proxym.gestionfbce.entity.OrderRoot</node>
+    <node x="2479.2922248803834" y="1483.0">com.proxym.gestionfbce.entity.TimeType</node>
+    <node x="2220.7922248803834" y="1288.0">com.proxym.gestionfbce.entity.AmountType</node>
+    <node x="574.3036697951167" y="1483.0">com.proxym.gestionfbce.entity.IndicatorType</node>
+    <node x="282.25" y="1041.0">com.proxym.gestionfbce.entity.QuantityType</node>
+    <node x="78.39583333333326" y="1300.0">com.proxym.gestionfbce.entity.DateType</node>
+    <node x="329.92866979511666" y="1471.0">com.proxym.gestionfbce.entity.OrderLine</node>
+    <node x="1836.5922248803834" y="444.0">com.proxym.gestionfbce.entity.PartyIdentification</node>
+    <node x="1001.8036697951167" y="173.0">com.proxym.gestionfbce.entity.AddressLine</node>
+    <node x="422.42866979511666" y="1276.0">com.proxym.gestionfbce.entity.LineItem</node>
+    <node x="890.63700312845" y="1252.0">com.proxym.gestionfbce.entity.Party</node>
+    <node x="1063.2074270880184" y="822.0">com.proxym.gestionfbce.entity.Branch</node>
+    <node x="542.9286697951167" y="173.0">com.proxym.gestionfbce.entity.PartyName</node>
+    <node x="1304.4083333333333" y="161.0">com.proxym.gestionfbce.entity.Country</node>
+    <node x="585.5362599510631" y="0.0">com.proxym.gestionfbce.entity.TextType</node>
+    <node x="2226.2922248803834" y="1483.0">com.proxym.gestionfbce.entity.TaxTotal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.proxym.gestionfbce.entity.Contact" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-56.25" y="-90.5" />
+      <point x="807.1786697951167" y="121.0" />
+      <point x="680.3439522587554" y="121.0" />
+      <point x="22.307692307692264" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.AddressLine" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="0.0" y="-30.5" />
+      <point x="1086.3036697951165" y="101.0" />
+      <point x="702.6516445664477" y="101.0" />
+      <point x="44.61538461538453" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.TaxTotal" target="com.proxym.gestionfbce.entity.AmountType">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.OrderLine">
+      <point x="-55.27272727272725" y="-162.5" />
+      <point x="912.6142758557228" y="1598.0" />
+      <point x="424.42866979511666" y="1598.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.FinancialAccount" target="com.proxym.gestionfbce.entity.CodeType">
+      <point x="106.125" y="-78.5" />
+      <point x="1896.8422248803834" y="985.0" />
+      <point x="2648.7922248803834" y="985.0" />
+      <point x="2648.7922248803834" y="141.0" />
+      <point x="2528.646874190624" y="141.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.DateType">
+      <point x="-82.90909090909088" y="-162.5" />
+      <point x="884.977912219359" y="1608.0" />
+      <point x="270.9703364617834" y="1608.0" />
+      <point x="270.9703364617834" y="1439.0" />
+      <point x="191.72916666666663" y="1439.0" />
+      <point x="45.33333333333337" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Party" target="com.proxym.gestionfbce.entity.Address">
+      <point x="0.0" y="-78.5" />
+      <point x="1045.13700312845" y="1182.0" />
+      <point x="967.8408359914945" y="1182.0" />
+      <point x="967.8408359914945" y="638.0" />
+      <point x="1036.0953364617833" y="638.0" />
+      <point x="-80.33333333333337" y="138.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Address" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-90.375" y="-138.5" />
+      <point x="1026.0536697951165" y="266.0" />
+      <point x="910.8899297461797" y="266.0" />
+      <point x="910.8899297461797" y="111.0" />
+      <point x="691.4977984126016" y="111.0" />
+      <point x="33.46153846153845" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.CustomerParty" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="85.75" y="-54.5" />
+      <point x="2120.5422248803834" y="296.0" />
+      <point x="1748.7416666666668" y="296.0" />
+      <point x="67.33333333333326" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.SupplierParty">
+      <point x="0.0" y="-162.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.FinancialInstitution" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="0.0" y="-54.5" />
+      <point x="1284.88700312845" y="91.0" />
+      <point x="713.8054907202938" y="91.0" />
+      <point x="55.76923076923072" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Party" target="com.proxym.gestionfbce.entity.Contact">
+      <point x="-61.799999999999955" y="-78.5" />
+      <point x="983.3370031284501" y="1192.0" />
+      <point x="863.4286697951167" y="1192.0" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Branch" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-117.75" y="-66.5" />
+      <point x="1102.4574270880184" y="797.0" />
+      <point x="740.4286697951167" y="797.0" />
+      <point x="740.4286697951167" y="131.0" />
+      <point x="669.1901061049093" y="131.0" />
+      <point x="11.153846153846189" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Country" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-64.0" y="-42.5" />
+      <point x="1368.4083333333333" y="81.0" />
+      <point x="724.95933687414" y="81.0" />
+      <point x="66.9230769230769" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Contact" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="56.25" y="-90.5" />
+      <point x="919.6786697951167" y="276.0" />
+      <point x="1591.6305555555555" y="276.0" />
+      <point x="-89.77777777777783" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.CustomerParty" target="com.proxym.gestionfbce.entity.Party">
+      <point x="-85.75" y="-54.5" />
+      <point x="1949.0422248803834" y="1439.0" />
+      <point x="1122.38700312845" y="1439.0" />
+      <point x="77.25" y="78.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.Period">
+      <point x="-110.5454545454545" y="-162.5" />
+      <point x="857.3415485829955" y="1618.0" />
+      <point x="107.0" y="1618.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.PartyName" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="0.0" y="-30.5" />
+      <point x="630.9286697951167" y="141.0" />
+      <point x="646.8824137972169" y="141.0" />
+      <point x="-11.153846153846189" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.FinancialAccount" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="35.375" y="-78.5" />
+      <point x="1826.0922248803834" y="316.0" />
+      <point x="1703.8527777777776" y="316.0" />
+      <point x="22.444444444444343" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Branch" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="117.75" y="-66.5" />
+      <point x="1337.9574270880184" y="797.0" />
+      <point x="1436.9574270880184" y="797.0" />
+      <point x="1436.9574270880184" y="306.0" />
+      <point x="1658.963888888889" y="306.0" />
+      <point x="-22.444444444444343" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.OrderLine" target="com.proxym.gestionfbce.entity.LineItem">
+      <point x="47.25" y="-42.5" />
+      <point x="471.67866979511666" y="1439.0" />
+      <point x="532.4286697951167" y="1439.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.TaxTotal">
+      <point x="55.27272727272725" y="-162.5" />
+      <point x="1023.1597304011773" y="1598.0" />
+      <point x="2342.7922248803834" y="1598.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-138.18181818181813" y="-162.5" />
+      <point x="829.7051849466318" y="1628.0" />
+      <point x="0.0" y="1628.0" />
+      <point x="0.0" y="91.0" />
+      <point x="591.1131830279862" y="91.0" />
+      <point x="-66.9230769230769" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.FinancialAccount" target="com.proxym.gestionfbce.entity.Branch">
+      <point x="-35.375" y="-78.5" />
+      <point x="1755.3422248803834" y="975.0" />
+      <point x="1220.2074270880184" y="975.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Address" target="com.proxym.gestionfbce.entity.AddressLine">
+      <point x="-30.125" y="-138.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.IndicatorType">
+      <point x="-27.636363636363626" y="-162.5" />
+      <point x="940.2506394920863" y="1588.0" />
+      <point x="669.8036697951167" y="1588.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.LineItem" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="73.33333333333348" y="-54.5" />
+      <point x="605.7620031284501" y="1212.0" />
+      <point x="1551.2713915470501" y="1212.0" />
+      <point x="1551.2713915470501" y="316.0" />
+      <point x="1681.4083333333333" y="316.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.FinancialInstitution" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="89.33333333333326" y="-54.5" />
+      <point x="1374.2203364617833" y="638.0" />
+      <point x="1381.8065964128464" y="638.0" />
+      <point x="1381.8065964128464" y="296.0" />
+      <point x="1636.5194444444446" y="296.0" />
+      <point x="-44.888888888888914" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Party" target="com.proxym.gestionfbce.entity.PartyIdentification">
+      <point x="123.59999999999991" y="-78.5" />
+      <point x="1168.73700312845" y="1232.0" />
+      <point x="1965.0922248803834" y="1232.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Country" target="com.proxym.gestionfbce.entity.CodeType">
+      <point x="64.0" y="-42.5" />
+      <point x="1496.4083333333333" y="141.0" />
+      <point x="2478.646874190624" y="141.0" />
+      <point x="-50.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Party" target="com.proxym.gestionfbce.entity.FinancialAccount">
+      <point x="61.799999999999955" y="-78.5" />
+      <point x="1106.93700312845" y="1222.0" />
+      <point x="1790.7172248803834" y="1222.0" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Period" target="com.proxym.gestionfbce.entity.DateType">
+      <point x="72.375" y="-42.5" />
+      <point x="179.375" y="1439.0" />
+      <point x="146.39583333333326" y="1439.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.LineItem" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="0.0" y="-54.5" />
+      <point x="532.4286697951167" y="1232.0" />
+      <point x="487.75" y="1232.0" />
+      <point x="487.75" y="131.0" />
+      <point x="635.7285676433709" y="131.0" />
+      <point x="-22.307692307692264" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.TimeType">
+      <point x="82.90909090909088" y="-162.5" />
+      <point x="1050.7960940375408" y="1608.0" />
+      <point x="2553.2922248803834" y="1608.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Branch" target="com.proxym.gestionfbce.entity.Address">
+      <point x="-39.25" y="-66.5" />
+      <point x="1180.9574270880184" y="797.0" />
+      <point x="1140.38700312845" y="797.0" />
+      <point x="1140.38700312845" y="638.0" />
+      <point x="1116.4286697951165" y="638.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Address" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="90.375" y="-138.5" />
+      <point x="1206.8036697951165" y="286.0" />
+      <point x="1614.0750000000003" y="286.0" />
+      <point x="-67.33333333333326" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="110.5454545454545" y="-162.5" />
+      <point x="1078.4324576739045" y="1618.0" />
+      <point x="2637.7922248803834" y="1618.0" />
+      <point x="2637.7922248803834" y="286.0" />
+      <point x="1771.1861111111111" y="286.0" />
+      <point x="89.77777777777783" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.CodeType">
+      <point x="138.18181818181824" y="-162.5" />
+      <point x="1106.0688213102683" y="1628.0" />
+      <point x="2659.7922248803834" y="1628.0" />
+      <point x="2659.7922248803834" y="131.0" />
+      <point x="2578.646874190624" y="131.0" />
+      <point x="50.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Party" target="com.proxym.gestionfbce.entity.PartyName">
+      <point x="-123.59999999999991" y="-78.5" />
+      <point x="921.5370031284501" y="1202.0" />
+      <point x="630.9286697951167" y="1202.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Address" target="com.proxym.gestionfbce.entity.Country">
+      <point x="30.125" y="-138.5" />
+      <point x="1146.5536697951165" y="266.0" />
+      <point x="1432.4083333333333" y="266.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Order" target="com.proxym.gestionfbce.entity.CustomerParty">
+      <point x="27.636363636363626" y="-162.5" />
+      <point x="995.5233667648135" y="1588.0" />
+      <point x="2034.7922248803834" y="1588.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Branch" target="com.proxym.gestionfbce.entity.FinancialInstitution">
+      <point x="39.25" y="-66.5" />
+      <point x="1259.4574270880184" y="797.0" />
+      <point x="1284.88700312845" y="797.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.SupplierParty" target="com.proxym.gestionfbce.entity.Party">
+      <point x="0.0" y="-30.5" />
+      <point x="-77.25" y="78.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.FinancialAccount" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-106.125" y="-78.5" />
+      <point x="1684.5922248803834" y="985.0" />
+      <point x="729.4286697951167" y="985.0" />
+      <point x="729.4286697951167" y="141.0" />
+      <point x="658.0362599510631" y="141.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.FinancialInstitution" target="com.proxym.gestionfbce.entity.Address">
+      <point x="-89.33333333333326" y="-54.5" />
+      <point x="1195.5536697951168" y="638.0" />
+      <point x="1196.76200312845" y="638.0" />
+      <point x="80.33333333333326" y="138.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.Period" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-24.125" y="-42.5" />
+      <point x="82.875" y="1439.0" />
+      <point x="64.25" y="1439.0" />
+      <point x="64.25" y="111.0" />
+      <point x="613.4208753356785" y="111.0" />
+      <point x="-44.61538461538464" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.LineItem" target="com.proxym.gestionfbce.entity.QuantityType">
+      <point x="-73.33333333333348" y="-54.5" />
+      <point x="459.0953364617832" y="1232.0" />
+      <point x="379.75" y="1232.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.OrderLine" target="com.proxym.gestionfbce.entity.TextType">
+      <point x="-47.25" y="-42.5" />
+      <point x="377.17866979511666" y="1429.0" />
+      <point x="271.75" y="1429.0" />
+      <point x="271.75" y="121.0" />
+      <point x="624.5747214895247" y="121.0" />
+      <point x="-33.46153846153845" y="30.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.OrderRoot" target="com.proxym.gestionfbce.entity.Order">
+      <point x="36.75" y="-78.5" />
+      <point x="1004.63700312845" y="1998.0" />
+      <point x="1043.88700312845" y="1998.0" />
+      <point x="76.0" y="162.5" />
+    </edge>
+    <edge source="com.proxym.gestionfbce.entity.PartyIdentification" target="com.proxym.gestionfbce.entity.IdentifierType">
+      <point x="0.0" y="-30.5" />
+      <point x="1965.0922248803834" y="306.0" />
+      <point x="1726.2972222222224" y="306.0" />
+      <point x="44.888888888888914" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="666.5" y="345.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
